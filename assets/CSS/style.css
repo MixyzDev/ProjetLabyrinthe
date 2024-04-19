@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 5px solid rgb(121, 12, 12);
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/laby.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 5px solid rgb(121, 12, 12);
+}
+
+input {
+    width: 100%;
+    margin: 5px;
+    border-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.up {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.up input {
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/up.png);
+    background-size: cover;
+    color: transparent;
+}
+
+.lr {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left input {
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/left.png);
+    background-size: cover;
+    color: transparent;
+}
+
+.right input {
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/right.png);
+    background-size: cover;
+    color: transparent;
+}
+
+.down {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.down input {
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/down.png);
+    background-size: cover;
+    color: transparent;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: white;
+    border: 5px solid rgb(121, 12, 12);
+    opacity: 0.9;
+}
+
+#gagne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    min-height: 30vh;
+    opacity: 0.9;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
